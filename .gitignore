@@ -1,0 +1,28 @@
+# --- generated images ---------------------------------------------------------
+# The programs write their BMPs into Images/. They are outputs, and large
+# (a 3000x3000 image is 36 MB uncompressed), so they are not tracked.
+# The PNG copies used by the README live in assets/ and are tracked.
+Images/
+*.bmp
+
+# --- build artefacts ----------------------------------------------------------
+*.o
+*.exe
+*.obj
+*.a
+*.lib
+*.dll
+*.out
+
+# --- course material ----------------------------------------------------------
+# Report, slides and the assignment: not redistributed here.
+docs/
+
+# --- editor and OS --------------------------------------------------------------
+.vscode/
+.idea/
+*.swp
+*~
+Thumbs.db
+desktop.ini
+.DS_Store
